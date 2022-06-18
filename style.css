@@ -1,0 +1,98 @@
+body{   
+    background-color: black;
+    margin: 0;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#showcase{
+
+     margin:0;
+     padding: 0;
+     background: url("/IMAGES/Hand.GIF") no-repeat center/cover;
+     width:100%;
+     height: 100vh;
+     position:relative;
+     overflow-y: hidden;
+}
+
+h1{
+    color: aqua;
+    text-align: left;
+    font-weight: 90px;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.section-head{
+    color: #f0f8ff;
+    text-align: center;
+    font-weight: 90px;
+    font-size: 70px;
+    font-style: italic;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+   background-color:black;
+   color: black;
+   position: fixed;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+      display: inline;
+      float: left;
+}
+
+nav a{
+display: inline-block;
+width: 100px;
+text-align: center;
+text-decoration: none;
+padding: 10px 20px;
+color: aqua;
+font-style:normal;
+}
+nav li:hover{
+    background-color: gray;
+}
+
+
+#about h2{
+   text-align: center;
+}
+
+p{
+   text-align: center;
+   font-weight: 90px;
+   font-size: 40px;
+   font-style: italic;
+   color: aqua;
+   
+}
+
+.icons ul{
+    padding: 0;
+    margin: 0;
+}
+
+.icons li{
+      display: inline;
+}
+
+.icons a{
+    align-items: center;
+width: 100px;
+text-decoration: none;
+padding: 10px 150px;
+
+}
